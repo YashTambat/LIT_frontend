@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                   onClick={() => setShowDropdown(!showDropdown)}
                   className="px-4 py-1 rounded-lg bg-red-500 text-white hover:bg-red-600"
                 >
-                  Logout ▼
+                   ▼
                 </button>
                 {showDropdown && (
                   <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg py-2 z-50">
